@@ -1,16 +1,56 @@
-# React + Vite
+# 📦 InventarisPro Dashboard - React Modern UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+InventarisPro adalah aplikasi sistem informasi manajemen inventaris berbasis web yang dibangun menggunakan **React.js**. Aplikasi ini dirancang untuk memberikan pengalaman pengelolaan stok barang, kategori, dan supplier yang cepat, responsif, dan user-friendly.
 
-Currently, two official plugins are available:
+![Status Deployment](https://img.shields.io/badge/Deployment-Vercel-success)
+![Technology](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Fitur Utama
 
-## React Compiler
+* **Dashboard Statistik:** Ringkasan jumlah barang, kategori, supplier, dan peringatan stok kritis secara real-time.
+* **Manajemen CRUD Lengkap:** Tambah, edit, dan hapus data untuk Barang, Kategori, dan Supplier.
+* **Pencarian Dinamis:** Fitur filter pencarian barang berdasarkan nama secara instan.
+* **Sistem Notifikasi Stok:** Deteksi otomatis barang yang memiliki sisa stok di bawah batas aman.
+* **Responsive Design:** Tampilan adaptif yang optimal untuk perangkat Desktop, Tablet, maupun Smartphone.
+* **Log Aktivitas Terkini:** Catatan riwayat perubahan data untuk keperluan audit sederhana.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Teknologi yang Digunakan
 
-## Expanding the ESLint configuration
+* **Library Utama:** [React.js](https://reactjs.org/)
+* **State Management:** React Hooks (`useState`, `useEffect`)
+* **Styling:** Modern CSS3 dengan teknik Flexbox & Grid
+* **Icons:** Lucide React / Heroicons
+* **Tooling:** Vite / Create React App
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Cuplikan Antarmuka
+
+*(Tips: Kamu bisa mengupload screenshot pengerjaanmu ke folder 'img' di GitHub lalu menampilkannya di sini)*
+
+1.  **Dashboard Utama:** Ringkasan inventaris dan grafik stok.
+2.  **Manajemen Barang:** Tabel data barang dengan indikator stok rendah.
+3.  **Tampilan Mobile:** UI yang responsif di perangkat mobile.
+
+## 🚀 Cara Menjalankan Project
+
+Ikuti langkah-langkah berikut untuk menjalankan project ini di lingkungan lokal Anda:
+
+1.  **Clone Repository:**
+    ```bash
+    git clone [https://github.com/IntanMaiyuni/react-inventaris-ui.git](https://github.com/IntanMaiyuni/react-inventaris-ui.git)
+    ```
+2.  **Masuk ke Folder Project:**
+    ```bash
+    cd react-inventaris-ui
+    ```
+3.  **Install Dependencies:**
+    ```bash
+    npm install
+    ```
+4.  **Jalankan Aplikasi:**
+    ```bash
+    npm run dev
+    # atau
+    npm start
+    ```
+5.  **Buka di Browser:**
+    Akses `http://localhost:5173` atau `http://localhost:3000`.
